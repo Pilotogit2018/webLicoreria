@@ -41,7 +41,7 @@
 
                     <li><a href="<?php echo base_url();?>index.php/cliente/lista"><i class="fa fa-bar-chart-o"></i>Clientes</a></li>
 
-                    <li><a><i class="fa fa-clone"></i>ventas</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/venta/lista"><i class="fa fa-clone"></i>ventas</a></li>
 
                   
                 </ul>

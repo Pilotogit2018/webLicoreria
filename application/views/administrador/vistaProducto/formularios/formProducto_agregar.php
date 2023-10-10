@@ -62,20 +62,20 @@
 											<label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">Marca: <span class="required">*</span>
 											</label>
 											<div class="col-md-6 col-sm-6 ">
-                                            <select name="idMarca" class="form-control form-select form-select-lg">
-                                                <option value="" disable selected>Seleccionar Marca</option>
-                                                <?php
-                                                    foreach($info1->result() as $row)
-                                                    {
-                                                ?>  
-                                                <option value="<?php echo $row->idMarca;?>">
-                                                    <?php echo $row->nombre;?>
-                                                    </option>
-                                                <?php
-                                                    }
-                                                ?>
+												<select name="idMarca" class="form-control form-select form-select-lg">
+													<option value="" disable selected>Seleccionar Marca</option>
+													<?php
+														foreach($info1->result() as $row)
+														{
+													?>  
+													<option value="<?php echo $row->idMarca;?>">
+														<?php echo $row->nombre;?>
+														</option>
+													<?php
+														}
+													?>
 
-                                            </select>
+												</select>
 											</div>
 										</div>
 
